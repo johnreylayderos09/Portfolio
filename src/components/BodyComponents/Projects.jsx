@@ -29,7 +29,7 @@ function Projects() {
           {/* Project 1: ExpenseGenie */}
           <div className="bg-gray-700 p-6 rounded-lg shadow-md border border-purple-500/20 flex flex-col">
             <img
-              src={project1Img}// Replace with your actual image
+              src={project1Img}
               alt="ExpenseGenie"
               className="rounded-md mb-4 object-cover h-48 w-full"
             />
@@ -38,12 +38,12 @@ function Projects() {
             </h3>
             <p className="mb-4">A smart personal finance tracker with AI-powered budgeting.</p>
             <div className="mt-auto flex gap-4">
-              <a href="https://agri-cast-ten.vercel.app/" target="_blank" rel="noopener noreferrer">
+              <a href="https://expensegenie.vercel.app/" target="_blank" rel="noopener noreferrer">
                 <button className="bg-cyan-500 hover:bg-cyan-600 text-white px-4 py-2 rounded-md text-sm font-medium">
                   Live Demo
                 </button>
               </a>
-              <a href="https://github.com/johnreylayderos09/AgriCast" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/johnreylayderos09/expense-genie" target="_blank" rel="noopener noreferrer">
                 <button className="bg-gray-800 hover:bg-gray-700 text-white px-4 py-2 rounded-md text-sm font-medium border border-white/20">
                   GitHub Repo
                 </button>
@@ -54,7 +54,7 @@ function Projects() {
           {/* Project 2: Agri-Cast */}
           <div className="bg-gray-700 p-6 rounded-lg shadow-md border border-purple-500/20 flex flex-col">
             <img
-              src={project2Img} // Replace with your actual image
+              src={project2Img} 
               alt="Agri-Cast"
               className="rounded-md mb-4 object-cover h-48 w-full"
             />
@@ -63,12 +63,12 @@ function Projects() {
             </h3>
             <p className="mb-4">A weather-based forecasting system tailored for agriculture needs.</p>
             <div className="mt-auto flex gap-4">
-              <a href="https://expensegenie.vercel.app/" target="_blank" rel="noopener noreferrer">
+              <a href="https://agri-cast-ten.vercel.app/" target="_blank" rel="noopener noreferrer">
                 <button className="bg-cyan-500 hover:bg-cyan-600 text-white px-4 py-2 rounded-md text-sm font-medium">
                   Live Demo
                 </button>
               </a>
-              <a href="https://github.com/johnreylayderos09/expense-genie" target="_blank" rel="noopener noreferrer">
+              <a href="https://github.com/johnreylayderos09/AgriCast" target="_blank" rel="noopener noreferrer">
                 <button className="bg-gray-800 hover:bg-gray-700 text-white px-4 py-2 rounded-md text-sm font-medium border border-white/20">
                   GitHub Repo
                 </button>
