@@ -44,10 +44,11 @@ function Skills() {
       </div>
 
       {/* Main content container */}
-      <div className="relative z-10 bg-gray-800/90 backdrop-blur-md rounded-xl p-8 shadow-lg mx-4 max-w-5xl w-full">
+      <div className="relative z-10 bg-gray-800/90 backdrop-blur-md rounded-xl p-8 shadow-lg mx-4 max-w-6xl w-full">
         <h2 className="text-3xl font-semibold mb-8 text-center text-white">Skills & Tech Stack</h2>
 
-        <div className="flex flex-wrap justify-center gap-6">
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-6 justify-items-center">
+
           {skills.map(({ icon, label }, idx) => (
             <div
               key={idx}

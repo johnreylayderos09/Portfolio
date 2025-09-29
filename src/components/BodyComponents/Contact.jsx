@@ -22,7 +22,7 @@ function Contact() {
           Feel free to reach out or follow me on these platforms:
         </p>
 
-        <div className="flex justify-center space-x-10 text-4xl text-gray-400">
+        <div className="grid grid-cols-3 gap-6 justify-items-center text-4xl text-gray-400 md:flex md:justify-center md:space-x-10 md:gap-0">
           <a
             href="https://github.com/johnreylayderos09"
             target="_blank"

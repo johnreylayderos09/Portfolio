@@ -82,12 +82,11 @@ function TypingText() {
 // Animated role carousel
 function RoleCarousel({ role }) {
   return (
-    <div className="relative h-12 overflow-hidden">
+    <div className="relative h-14 overflow-hidden">
       <div className="absolute inset-0 bg-gradient-to-r from-transparent via-purple-500/10 to-transparent animate-shimmer"></div>
       <h2 
         key={role}
-        className="text-4xl md:text-5xl font-black bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 bg-clip-text text-transparent animate-slideUp"
-      >
+        className="text-3xl md:text-5xl font-black leading-[3.5rem] md:leading-tight bg-gradient-to-r from-cyan-400 via-purple-500 to-pink-500 bg-clip-text text-transparent animate-slideUp"      >
         {role}
       </h2>
       <style>{`
@@ -286,7 +285,7 @@ function Home() {
             {/* Left content */}
             <div className="flex-1 space-y-8">
               <div className="space-y-4">
-                <h1 className="text-6xl md:text-7xl font-black text-white animate-fadeInUp">
+                <h1 className="text-5xl md:text-7xl font-black text-white animate-fadeInUp">
                   Hello, I'm a
                 </h1>
                 <RoleCarousel role={roles[roleIndex]} />
